@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() 
+int main()
 {
 	int c = 0;
 	char ch, s[1000];
@@ -11,9 +11,9 @@ int main()
 	while (s[c] != '\0')
 	{
 		ch = s[c];
-		if (ch >= 'A' && ch <= 'Z') 
+		if (ch >= 'A' && ch <= 'Z')
 			s[c] += 32;
-		else if (ch >= 'a' && ch <= 'z') 
+		else if (ch >= 'a' && ch <= 'z')
 			s[c] -= 32;
 		c++;
 	}

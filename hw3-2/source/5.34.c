@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int power(int, int);
-int main() 
+int main()
 {
 	int base, a, result;
 	printf("Enter base number:");

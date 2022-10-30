@@ -17,6 +17,6 @@ int main()
 	int n;
 	printf("Enter number of disk:");
 	scanf("%d", &n);
-	hanoi_tower(n, 'A','C','B');
+	hanoi_tower(n, 'A', 'C', 'B');
 	return 0;
 }

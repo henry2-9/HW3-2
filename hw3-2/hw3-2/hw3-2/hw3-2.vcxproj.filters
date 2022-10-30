@@ -11,19 +11,19 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="5.28.c">
+    <ClCompile Include="..\..\source\5.28.c">
       <Filter>source</Filter>
     </ClCompile>
-    <ClCompile Include="5.29.c">
+    <ClCompile Include="..\..\source\5.29.c">
       <Filter>source</Filter>
     </ClCompile>
-    <ClCompile Include="5.34.c">
+    <ClCompile Include="..\..\source\5.34.c">
       <Filter>source</Filter>
     </ClCompile>
-    <ClCompile Include="5.35.c">
+    <ClCompile Include="..\..\source\5.35.c">
       <Filter>source</Filter>
     </ClCompile>
-    <ClCompile Include="5.36.c">
+    <ClCompile Include="..\..\source\5.36.c">
       <Filter>source</Filter>
     </ClCompile>
   </ItemGroup>

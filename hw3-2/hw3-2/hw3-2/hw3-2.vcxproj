@@ -142,11 +142,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="5.28.c" />
-    <ClCompile Include="5.29.c" />
-    <ClCompile Include="5.34.c" />
-    <ClCompile Include="5.35.c" />
-    <ClCompile Include="5.36.c" />
+    <ClCompile Include="..\..\source\5.28.c" />
+    <ClCompile Include="..\..\source\5.29.c" />
+    <ClCompile Include="..\..\source\5.34.c" />
+    <ClCompile Include="..\..\source\5.35.c" />
+    <ClCompile Include="..\..\source\5.36.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
