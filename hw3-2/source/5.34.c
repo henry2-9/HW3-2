@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int power(int, int);
+
 int main()
 {
 	int base, a, result;
@@ -10,6 +11,8 @@ int main()
 	scanf("%d", &a);
 	result = power(base, a);
 	printf("%d^%d = %d", base, a, result);
+
+	system("pause");
 	return 0;
 }
 

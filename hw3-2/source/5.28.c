@@ -1,12 +1,25 @@
 #include <stdio.h>
 
+void change(char []);
+
 int main()
 {
-	int c = 0;
-	char ch, s[1000];
+	char s[1000];
 
-	printf("Enter a string\n");
+	printf("Enter a string:\n");
 	scanf("%s", &s);
+
+	change(s);
+	printf("%s\n",s);
+
+	system("pause");
+	return 0;
+}
+
+void change(char s[])
+{
+	int c = 0;
+	char ch;
 
 	while (s[c] != '\0')
 	{
@@ -17,6 +30,4 @@ int main()
 			s[c] -= 32;
 		c++;
 	}
-	printf("%s\n", s);
-	return 0;
 }
